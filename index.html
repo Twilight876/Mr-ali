@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inter:wght@300;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="background">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+        <div class="wave wave5"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <div class="container">
+        <div class="envelope-wrapper" id="envelopeWrapper">
+            <div class="envelope">
+                <div class="flap"></div>
+                <div class="pocket"></div>
+                <div class="letter">
+                    <div class="letter-content">
+                        <p>Happy Birthday, Ms. Eman,</p>
+                        <p>I want to tell you how much I admire the way you teach, guide, and support every one of us.
+                            Your patience, kindness, and dedication make a real difference. You don’t just explain
+                            lessons — you inspire us to grow, to think, and to believe in ourselves.</p>
+                        <p>You make the classroom feel alive. You make difficult things feel possible. You make learning
+                            something to look forward to.</p>
+                        <p>I truly hope today is the happiest of all your birthdays. You deserve a day filled with joy,
+                            peace, and everything beautiful. Thank you for everything you do, and for the positive
+                            impact you create every single day.</p>
+                        <p>Wishing you the brightest and most joyful birthday.</p>
+                        <p class="signature">— From your student</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="audio-control">
+        <button id="audioToggle" aria-label="Toggle Music">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-music">
+                <path d="M9 18V5l12-2v13"></path>
+                <circle cx="6" cy="18" r="3"></circle>
+                <circle cx="18" cy="16" r="3"></circle>
+            </svg>
+        </button>
+        <audio id="bgMusic" loop>
+            <!-- Placeholder for audio, user can add their own source -->
+            <source src="" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
